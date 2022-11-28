@@ -4,11 +4,21 @@
         <title>Search</title>
     </head>
     <body>
+        <p>
+            Find pages with...
+        </p>
         <form action="https://www.google.com/advanced_search">
+            <label for="all">all these words:</label>
             <input type="text" name="all">
+            
+            <label for="exact">this exact word or phrase:</label>
             <input type="text" name="exact">
+            
+            <label for="any">any of these words:</label>
             <input type="text" name="any">
-            <input type="text" name="any">
+            
+            <label for="none">none of these words:</label>
+            <input type="text" name="none">
             <input type="submit" value="Advanced Search">
         </form>
     </body>
